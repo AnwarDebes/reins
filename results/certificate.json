@@ -1,0 +1,49 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "tamper_trials": 12,
+  "tamper_detection_rate": {
+    "event_flip": 1.0,
+    "edit_flip": 1.0,
+    "delete": 1.0,
+    "insert": 1.0,
+    "reorder": 1.0,
+    "forge_no_key": 1.0
+  },
+  "tamper_overall_rate": 1.0,
+  "minimality_over_restriction_caught_rate": 1.0,
+  "minimality_under_restriction_caught": 12,
+  "minimality_trials": 12,
+  "verify_us_per_session": 14278.040000008332,
+  "verify_session_entries": 37,
+  "verify_scaling": [
+    {
+      "entries": 32,
+      "verify_us": 12069.40000065515
+    },
+    {
+      "entries": 78,
+      "verify_us": 27504.599999701895
+    },
+    {
+      "entries": 171,
+      "verify_us": 49260.30000024184
+    },
+    {
+      "entries": 327,
+      "verify_us": 95821.09999973909
+    }
+  ]
+}

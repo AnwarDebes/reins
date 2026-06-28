@@ -1,0 +1,36 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "n_trajectories_per_seed": 200,
+  "shieldable_full": {
+    "is_shieldable": true,
+    "soundness_rate_mean": 1.0,
+    "soundness_rate_std": 0.0,
+    "enforcement_failures_total": 0
+  },
+  "nonshieldable_no_escalation": {
+    "is_shieldable": false,
+    "shieldability_gaps": [
+      "response(sensitive_read->audit_log,3): response event 'audit_log' is not insertable"
+    ],
+    "soundness_rate_mean": 0.5520833333333334,
+    "soundness_rate_std": 0.026728444066616022,
+    "enforcement_failures_total": 1777
+  },
+  "gaps_with_escalation": {
+    "soundness_rate_mean": 1.0,
+    "soundness_rate_std": 0.0
+  }
+}

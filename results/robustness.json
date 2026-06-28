@@ -1,0 +1,152 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "export_budget": 2,
+  "adaptive_exfiltration_curve": [
+    {
+      "attempted": 0,
+      "executed": 0,
+      "sound": true
+    },
+    {
+      "attempted": 1,
+      "executed": 1,
+      "sound": true
+    },
+    {
+      "attempted": 2,
+      "executed": 2,
+      "sound": true
+    },
+    {
+      "attempted": 3,
+      "executed": 2,
+      "sound": true
+    },
+    {
+      "attempted": 4,
+      "executed": 2,
+      "sound": true
+    },
+    {
+      "attempted": 5,
+      "executed": 2,
+      "sound": true
+    },
+    {
+      "attempted": 6,
+      "executed": 2,
+      "sound": true
+    },
+    {
+      "attempted": 7,
+      "executed": 2,
+      "sound": true
+    },
+    {
+      "attempted": 8,
+      "executed": 2,
+      "sound": true
+    },
+    {
+      "attempted": 9,
+      "executed": 2,
+      "sound": true
+    },
+    {
+      "attempted": 10,
+      "executed": 2,
+      "sound": true
+    },
+    {
+      "attempted": 11,
+      "executed": 2,
+      "sound": true
+    },
+    {
+      "attempted": 12,
+      "executed": 2,
+      "sound": true
+    },
+    {
+      "attempted": 13,
+      "executed": 2,
+      "sound": true
+    },
+    {
+      "attempted": 14,
+      "executed": 2,
+      "sound": true
+    },
+    {
+      "attempted": 15,
+      "executed": 2,
+      "sound": true
+    },
+    {
+      "attempted": 16,
+      "executed": 2,
+      "sound": true
+    },
+    {
+      "attempted": 17,
+      "executed": 2,
+      "sound": true
+    },
+    {
+      "attempted": 18,
+      "executed": 2,
+      "sound": true
+    },
+    {
+      "attempted": 19,
+      "executed": 2,
+      "sound": true
+    },
+    {
+      "attempted": 20,
+      "executed": 2,
+      "sound": true
+    }
+  ],
+  "adaptive_damage_bounded": true,
+  "capability_ablation": {
+    "full": {
+      "cup_mean": 1.0,
+      "cup_std": 0.0,
+      "soundness_mean": 1.0
+    },
+    "no_insert": {
+      "cup_mean": 0.3277777777777778,
+      "cup_std": 0.07767850807838647,
+      "soundness_mean": 1.0
+    },
+    "no_insert_no_escalation": {
+      "cup_mean": 0.3277777777777778,
+      "cup_std": 0.07767850807838647,
+      "soundness_mean": 0.6694444444444444
+    },
+    "block": {
+      "cup_mean": 0.3277777777777778,
+      "cup_std": 0.07767850807838647,
+      "soundness_mean": 1.0
+    }
+  },
+  "substitution_auditability": {
+    "substitutions_performed": 31,
+    "substitutions_in_certificate": 31,
+    "auditable_rate": 1.0
+  }
+}

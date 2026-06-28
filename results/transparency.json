@@ -1,0 +1,23 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "transparency_intervention_rate_compliant_mean": 0.0,
+  "transparency_intervention_rate_compliant_std": 0.0,
+  "certified_minimal_rate": 1.0,
+  "n_steps_checked": 8394,
+  "per_step_vs_global_agreement": 0.975,
+  "n_trajectories_global": 480,
+  "max_total_cost_gap": 15.0
+}

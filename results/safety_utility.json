@@ -1,0 +1,106 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "summary": {
+    "noshield": {
+      "cup_mean": 0.3277777777777778,
+      "cup_std": 0.07767850807838647,
+      "asr_mean": 1.0,
+      "asr_std": 0.0
+    },
+    "block": {
+      "cup_mean": 0.3277777777777778,
+      "cup_std": 0.07767850807838647,
+      "asr_mean": 0.0,
+      "asr_std": 0.0
+    },
+    "reins": {
+      "cup_mean": 1.0,
+      "cup_std": 0.0,
+      "asr_mean": 0.0,
+      "asr_std": 0.0
+    }
+  },
+  "by_benign_type": {
+    "noshield": {
+      "benign_compliant": {
+        "cup_mean": 1.0,
+        "cup_std": 0.0
+      },
+      "benign_forgot_authorize": {
+        "cup_mean": 0.0,
+        "cup_std": 0.0
+      },
+      "benign_forgot_audit": {
+        "cup_mean": 0.0,
+        "cup_std": 0.0
+      }
+    },
+    "block": {
+      "benign_compliant": {
+        "cup_mean": 1.0,
+        "cup_std": 0.0
+      },
+      "benign_forgot_authorize": {
+        "cup_mean": 0.0,
+        "cup_std": 0.0
+      },
+      "benign_forgot_audit": {
+        "cup_mean": 0.0,
+        "cup_std": 0.0
+      }
+    },
+    "reins": {
+      "benign_compliant": {
+        "cup_mean": 1.0,
+        "cup_std": 0.0
+      },
+      "benign_forgot_authorize": {
+        "cup_mean": 1.0,
+        "cup_std": 0.0
+      },
+      "benign_forgot_audit": {
+        "cup_mean": 1.0,
+        "cup_std": 0.0
+      }
+    }
+  },
+  "frontier": [
+    {
+      "label": "block (suppress only)",
+      "cup_mean": 0.3277777777777778,
+      "cup_std": 0.07767850807838647,
+      "asr_mean": 0.0
+    },
+    {
+      "label": "+substitute",
+      "cup_mean": 0.3277777777777778,
+      "cup_std": 0.07767850807838647,
+      "asr_mean": 0.0
+    },
+    {
+      "label": "+insert-authorize",
+      "cup_mean": 0.6694444444444444,
+      "cup_std": 0.06376800157360554,
+      "asr_mean": 0.0
+    },
+    {
+      "label": "+insert-audit (full)",
+      "cup_mean": 1.0,
+      "cup_std": 0.0,
+      "asr_mean": 0.0
+    }
+  ]
+}

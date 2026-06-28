@@ -1,0 +1,36 @@
+{
+  "host": "Windows-11-10.0.26200-SP0",
+  "python": "3.14.3",
+  "latency": {
+    "median_us": 225.70000010091462,
+    "mean_us": 292.72222499844247,
+    "p99_us": 793.100000009872,
+    "candidate_set_mean": 9.44
+  },
+  "monitor_memory_bytes": 386,
+  "constant_memory": true,
+  "ledger_bytes_per_entry": 689.56,
+  "certificate_bytes": 1990,
+  "latency_vs_constraints": [
+    {
+      "constraints": 1,
+      "median_us": 104.20000035082921
+    },
+    {
+      "constraints": 5,
+      "median_us": 255.50000009388896
+    },
+    {
+      "constraints": 10,
+      "median_us": 487.5500003436173
+    },
+    {
+      "constraints": 20,
+      "median_us": 752.9500003329304
+    },
+    {
+      "constraints": 40,
+      "median_us": 1481.8499998909829
+    }
+  ]
+}
