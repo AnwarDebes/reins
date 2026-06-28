@@ -1,0 +1,339 @@
+% ====================================================================
+% REINS references, cross-checked against primary sources
+% (arXiv / official venue / RFC / EUR-Lex).
+% ====================================================================
+
+% ---- The author's companion line (the interpretable substrate) ----
+@misc{debes2026thgtm,
+  title  = {THGTM: A Temporal Hierarchical Graph Tsetlin Machine with Echo-Trace
+            Automata for Trajectory-Level Verification of Agentic AI},
+  author = {Debes, Anwar},
+  year   = {2026},
+  note   = {Reference implementation, v0.1}
+}
+
+@misc{debes2026trace,
+  title  = {TRACE: A Tsetlin Runtime Assurance and Certification Engine for
+            Interpretable, Tamper-Evident Guardrails on Agentic AI},
+  author = {Debes, Anwar},
+  year   = {2026},
+  note   = {Reference implementation, v1.0}
+}
+
+@article{granmo2018tsetlin,
+  title   = {The Tsetlin Machine -- A Game Theoretic Bandit Driven Approach to
+             Optimal Pattern Recognition with Propositional Logic},
+  author  = {Granmo, Ole-Christoffer},
+  journal = {arXiv preprint arXiv:1804.01508},
+  year    = {2018},
+  url     = {https://arxiv.org/abs/1804.01508}
+}
+
+@article{tunheim2025asic,
+  title   = {An All-digital 8.6-nJ/Frame 65-nm Tsetlin Machine Image
+             Classification Accelerator},
+  author  = {Tunheim, Svein Anders and Zheng, Yujin and Jiao, Lei and
+             Shafik, Rishad and Yakovlev, Alex and Granmo, Ole-Christoffer},
+  journal = {IEEE Transactions on Circuits and Systems I},
+  year    = {2025},
+  note    = {arXiv:2501.19347, DOI 10.1109/TCSI.2025.3586698},
+  url     = {https://arxiv.org/abs/2501.19347}
+}
+
+% ---- Runtime enforcement theory: the formal lineage REINS inherits ----
+@article{schneider2000enforceable,
+  title   = {Enforceable Security Policies},
+  author  = {Schneider, Fred B.},
+  journal = {ACM Transactions on Information and System Security (TISSEC)},
+  volume  = {3}, number = {1}, pages = {30--50}, year = {2000},
+  url     = {https://www.cs.cornell.edu/fbs/publications/EnfSecPols.pdf}
+}
+
+@article{ligatti2005edit,
+  title   = {Edit Automata: Enforcement Mechanisms for Run-time Security Policies},
+  author  = {Ligatti, Jay and Bauer, Lujo and Walker, David},
+  journal = {International Journal of Information Security},
+  volume  = {4}, number = {1--2}, pages = {2--16}, year = {2005},
+  url     = {https://doi.org/10.1007/s10207-004-0046-8}
+}
+
+@article{ramadge1987supervisory,
+  title   = {Supervisory Control of a Class of Discrete Event Processes},
+  author  = {Ramadge, Peter J. and Wonham, W. Murray},
+  journal = {SIAM Journal on Control and Optimization},
+  volume  = {25}, number = {1}, pages = {206--230}, year = {1987},
+  url     = {https://epubs.siam.org/doi/10.1137/0325013}
+}
+
+@article{mohri2003editdistance,
+  title   = {Edit-Distance of Weighted Automata: General Definitions and Algorithms},
+  author  = {Mohri, Mehryar},
+  journal = {International Journal of Foundations of Computer Science},
+  volume  = {14}, number = {6}, pages = {957--982}, year = {2003},
+  url     = {https://doi.org/10.1142/S0129054103002114}
+}
+
+% ---- Shield synthesis / minimal-interference (the "shield" vocabulary) ----
+@inproceedings{bloem2015shield,
+  title     = {Shield Synthesis: Runtime Enforcement for Reactive Systems},
+  author    = {Bloem, Roderick and K{\"o}nighofer, Bettina and
+               K{\"o}nighofer, Robert and Wang, Chao},
+  booktitle = {Tools and Algorithms for the Construction and Analysis of Systems
+               (TACAS)},
+  series    = {LNCS}, volume = {9035}, pages = {533--548}, year = {2015},
+  note      = {arXiv:1501.02573},
+  url       = {https://arxiv.org/abs/1501.02573}
+}
+
+@inproceedings{alshiekh2018safe,
+  title     = {Safe Reinforcement Learning via Shielding},
+  author    = {Alshiekh, Mohammed and Bloem, Roderick and Ehlers, R{\"u}diger and
+               K{\"o}nighofer, Bettina and Niekum, Scott and Topcu, Ufuk},
+  booktitle = {Proceedings of the 32nd AAAI Conference on Artificial Intelligence},
+  year      = {2018},
+  note      = {arXiv:1708.08611},
+  url       = {https://arxiv.org/abs/1708.08611}
+}
+
+@inproceedings{pandya2019optimal,
+  title     = {Specification and Optimal Reactive Synthesis of Run-time
+               Enforcement Shields},
+  author    = {Pandya, Paritosh K. and Wakankar, Amol},
+  booktitle = {Proceedings of GandALF 2019},
+  series    = {EPTCS}, volume = {305}, year = {2019},
+  note      = {arXiv:1909.08541},
+  url       = {https://arxiv.org/abs/1909.08541}
+}
+
+@inproceedings{gallay2021decentralized,
+  title     = {Decentralized LTL Enforcement},
+  author    = {Gallay, Florian and Falcone, Yli{\`e}s},
+  booktitle = {Proceedings of GandALF 2021},
+  series    = {EPTCS}, volume = {346}, year = {2021},
+  note      = {arXiv:2107.06084},
+  url       = {https://arxiv.org/abs/2107.06084}
+}
+
+@article{konighofer2025shieldsrl,
+  title   = {Shields for Safe Reinforcement Learning},
+  author  = {K{\"o}nighofer, Bettina and Bloem, Roderick and Jansen, Nils and
+             Junges, Sebastian and Pranger, Stefan},
+  journal = {Communications of the ACM},
+  volume  = {68}, number = {11}, pages = {80--90}, year = {2025},
+  url     = {https://cacm.acm.org/research/shields-for-safe-reinforcement-learning/}
+}
+
+% ---- Certifying algorithms / certificates ----
+@article{mcconnell2011certifying,
+  title   = {Certifying Algorithms},
+  author  = {McConnell, Ross M. and Mehlhorn, Kurt and N{\"a}her, Stefan and
+             Schweitzer, Pascal},
+  journal = {Computer Science Review},
+  volume  = {5}, number = {2}, pages = {119--161}, year = {2011},
+  url     = {https://doi.org/10.1016/j.cosrev.2010.09.009}
+}
+
+% ---- Runtime verification / temporal logic ----
+@article{bauer2011ltl3,
+  title   = {Runtime Verification for LTL and TLTL},
+  author  = {Bauer, Andreas and Leucker, Martin and Schallhart, Christian},
+  journal = {ACM Transactions on Software Engineering and Methodology (TOSEM)},
+  volume  = {20}, number = {4}, pages = {1--64}, year = {2011}
+}
+
+@inproceedings{degiacomo2013ltlf,
+  title     = {Linear Temporal Logic and Linear Dynamic Logic on Finite Traces},
+  author    = {De Giacomo, Giuseppe and Vardi, Moshe Y.},
+  booktitle = {Proceedings of the 23rd International Joint Conference on
+               Artificial Intelligence (IJCAI)},
+  pages     = {854--860}, year = {2013}
+}
+
+@inproceedings{lemieux2015texada,
+  title     = {General LTL Specification Mining},
+  author    = {Lemieux, Caroline and Park, Dennis and Beschastnikh, Ivan},
+  booktitle = {Proceedings of the 30th IEEE/ACM International Conference on
+               Automated Software Engineering (ASE)},
+  year      = {2015},
+  url       = {https://www.cs.ubc.ca/~bestchai/papers/texada-ase15_final.pdf}
+}
+
+% ---- LLM-agent runtime enforcement / guardrails (the contemporary wave) ----
+@article{kamath2025agentc,
+  title   = {Enforcing Temporal Constraints for LLM Agents},
+  author  = {Kamath, Adharsh and Zhang, Sishen and Xu, Calvin and Ugare, Shubham
+             and Singh, Gagandeep and Misailovic, Sasa},
+  journal = {arXiv preprint arXiv:2512.23738},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2512.23738}
+}
+
+@inproceedings{wang2025agentspec,
+  title     = {AgentSpec: Customizable Runtime Enforcement for Safe and Reliable
+               LLM Agents},
+  author    = {Wang, Haoyu and Poskitt, Christopher M. and Sun, Jun},
+  booktitle = {Proceedings of the 48th IEEE/ACM International Conference on
+               Software Engineering (ICSE)},
+  year      = {2026},
+  note      = {arXiv:2503.18666},
+  url       = {https://arxiv.org/abs/2503.18666}
+}
+
+@article{wang2025proguard,
+  title   = {Pro2Guard: Proactive Runtime Enforcement of LLM Agent Safety via
+             Probabilistic Model Checking},
+  author  = {Wang, Haoyu and Poskitt, Christopher M. and Sun, Jun and Wei, Jiali},
+  journal = {arXiv preprint arXiv:2508.00500},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2508.00500}
+}
+
+@inproceedings{chen2025shieldagent,
+  title     = {ShieldAgent: Shielding Agents via Verifiable Safety Policy Reasoning},
+  author    = {Chen, Zhaorun and Kang, Mintong and Li, Bo},
+  booktitle = {Proceedings of the 42nd International Conference on Machine Learning
+               (ICML)},
+  year      = {2025},
+  note      = {arXiv:2503.22738},
+  url       = {https://arxiv.org/abs/2503.22738}
+}
+
+@article{xiang2024guardagent,
+  title   = {GuardAgent: Safeguard LLM Agents by a Guard Agent via
+             Knowledge-Enabled Reasoning},
+  author  = {Xiang, Zhen and Zheng, Linzhi and Li, Yanjie and Hong, Junyuan and
+             Li, Qinbin and others and Li, Bo},
+  journal = {arXiv preprint arXiv:2406.09187},
+  year    = {2024},
+  url     = {https://arxiv.org/abs/2406.09187}
+}
+
+@article{chennabasappa2025llamafirewall,
+  title   = {LlamaFirewall: An Open Source Guardrail System for Building Secure
+             AI Agents},
+  author  = {Chennabasappa, Sahana and Nikolaidis, Cyrus and Song, Daniel and
+             others},
+  journal = {arXiv preprint arXiv:2505.03574},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2505.03574}
+}
+
+@article{shi2025progent,
+  title   = {Progent: Programmable Privilege Control for LLM Agents},
+  author  = {Shi, Tianneng and He, Jingxuan and Wang, Zhun and Wu, Linyu and
+             Li, Hongwei and Guo, Wenbo and Song, Dawn},
+  journal = {arXiv preprint arXiv:2504.11703},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2504.11703}
+}
+
+@article{yuan2026saver,
+  title   = {Verify Before You Commit: Towards Faithful Reasoning in LLM Agents
+             via Self-Auditing},
+  author  = {Yuan, Wenhao and Lin, Chenchen and Chen, Jian and Xu, Jinfeng and
+             Wang, Xuehe and Ngai, Edith Cheuk Han},
+  journal = {arXiv preprint arXiv:2604.08401},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2604.08401}
+}
+
+@article{veriguard2025,
+  title   = {VeriGuard: Enhancing LLM Agent Safety via Verified Code Generation},
+  author  = {VeriGuard Authors},
+  journal = {arXiv preprint arXiv:2510.05156},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2510.05156}
+}
+
+@article{willard2023guided,
+  title   = {Efficient Guided Generation for Large Language Models},
+  author  = {Willard, Brandon T. and Louf, R\'emi},
+  journal = {arXiv preprint arXiv:2307.09702},
+  year    = {2023},
+  url     = {https://arxiv.org/abs/2307.09702}
+}
+
+% ---- Agent attacks / benchmarks ----
+@inproceedings{debenedetti2024agentdojo,
+  title     = {AgentDojo: A Dynamic Environment to Evaluate Prompt Injection
+               Attacks and Defenses for LLM Agents},
+  author    = {Debenedetti, Edoardo and Zhang, Jie and Balunovi\'c, Mislav and
+               Beurer-Kellner, Luca and Fischer, Marc and Tram\`er, Florian},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS),
+               Datasets and Benchmarks Track},
+  year      = {2024},
+  note      = {arXiv:2406.13352}
+}
+
+@inproceedings{levy2025stwebagentbench,
+  title     = {ST-WebAgentBench: A Benchmark for Evaluating Safety and
+               Trustworthiness in Web Agents},
+  author    = {Levy, Ido and Wiesel, Ben and Marreed, Sami and Oved, Alon and
+               Yaeli, Avi and Shlomov, Segev},
+  booktitle = {Proceedings of the 42nd International Conference on Machine Learning
+               (ICML)},
+  year      = {2025},
+  note      = {arXiv:2410.06703},
+  url       = {https://arxiv.org/abs/2410.06703}
+}
+
+@article{greshake2023indirect,
+  title   = {Not What You've Signed Up For: Compromising Real-World
+             LLM-Integrated Applications with Indirect Prompt Injection},
+  author  = {Greshake, Kai and Abdelnabi, Sahar and Mishra, Shailesh and
+             Endres, Christoph and Holz, Thorsten and Fritz, Mario},
+  journal = {Proceedings of the 16th ACM Workshop on Artificial Intelligence and
+             Security (AISec)},
+  year    = {2023},
+  note    = {arXiv:2302.12173}
+}
+
+@misc{owasp2025agentic,
+  title  = {OWASP Top 10 for Agentic Applications},
+  author = {{OWASP Agentic Security Initiative}},
+  year   = {2025},
+  howpublished = {OWASP Foundation},
+  url    = {https://genai.owasp.org/}
+}
+
+% ---- Tamper-evident logging ----
+@misc{krawczyk1997hmac,
+  title  = {HMAC: Keyed-Hashing for Message Authentication},
+  author = {Krawczyk, Hugo and Bellare, Mihir and Canetti, Ran},
+  year   = {1997},
+  howpublished = {RFC 2104, Internet Engineering Task Force},
+  url    = {https://www.rfc-editor.org/rfc/rfc2104}
+}
+
+@inproceedings{schneier1998securelogs,
+  title     = {Cryptographic Support for Secure Logs on Untrusted Machines},
+  author    = {Schneier, Bruce and Kelsey, John},
+  booktitle = {Proceedings of the 7th USENIX Security Symposium},
+  year      = {1998}
+}
+
+@inproceedings{crosby2009historytree,
+  title     = {Efficient Data Structures for Tamper-Evident Logging},
+  author    = {Crosby, Scott A. and Wallach, Dan S.},
+  booktitle = {Proceedings of the 18th USENIX Security Symposium},
+  year      = {2009}
+}
+
+@misc{laurie2013ct,
+  title  = {Certificate Transparency},
+  author = {Laurie, Ben and Langley, Adam and Kasper, Emilia},
+  year   = {2013},
+  howpublished = {RFC 6962, Internet Engineering Task Force},
+  url    = {https://www.rfc-editor.org/rfc/rfc6962}
+}
+
+% ---- Regulation ----
+@misc{euaiact2024,
+  title  = {Regulation (EU) 2024/1689 of the European Parliament and of the
+            Council laying down harmonised rules on artificial intelligence
+            (Artificial Intelligence Act)},
+  author = {{European Parliament and Council}},
+  year   = {2024},
+  howpublished = {Official Journal of the European Union, L 2024/1689},
+  url    = {https://eur-lex.europa.eu/eli/reg/2024/1689/oj}
+}
