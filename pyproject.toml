@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reinskit"
+version = "1.0.0"
+description = "REINS: a certifying, minimal-intervention runtime shield for LLM agents built on interpretable bounded-LTL specifications."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Anwar Debes" }]
+keywords = [
+    "llm-agents", "runtime-enforcement", "shield-synthesis", "edit-automata",
+    "runtime-verification", "tsetlin-machine", "ai-safety", "interpretability",
+    "tamper-evident", "minimal-intervention",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Security",
+]
+dependencies = ["numpy>=1.21"]
+
+[project.optional-dependencies]
+experiments = ["matplotlib>=3.5", "scikit-learn>=1.0", "scipy>=1.7"]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools]
+packages = ["reinskit"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
