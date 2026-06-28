@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="REINS logo">
+  <defs>
+    <linearGradient id="badge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1740"/>
+      <stop offset="1" stop-color="#0b1426"/>
+    </linearGradient>
+    <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+
+  <!-- badge -->
+  <rect x="2" y="2" width="124" height="124" rx="30" fill="url(#badge)"/>
+  <rect x="2.5" y="2.5" width="123" height="123" rx="29.5" fill="none" stroke="#6d5fd4" stroke-width="2" opacity="0.55"/>
+
+  <!-- safe lane (the policy's safe language) -->
+  <rect x="18" y="50" width="92" height="34" rx="17" fill="#10b981" opacity="0.11"/>
+  <rect x="18.75" y="50.75" width="90.5" height="32.5" rx="16.25" fill="none"
+        stroke="#34d399" stroke-width="1.4" stroke-dasharray="2 6" opacity="0.5"/>
+
+  <!-- trajectory: veers low, bent back into the lane -->
+  <path d="M26 62 L42 62 C56 62, 58 82, 68 82 C80 82, 84 54, 96 56" fill="none"
+        stroke="url(#trail)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="26" cy="62" r="4.5" fill="#38bdf8"/>
+
+  <!-- least-cost INSERT edit (the minimal nudge) -->
+  <circle cx="68" cy="82" r="11" fill="#f59e0b" opacity="0.18"/>
+  <circle cx="68" cy="82" r="7.5" fill="#f59e0b"/>
+  <g stroke="#0b1426" stroke-width="2.4" stroke-linecap="round">
+    <line x1="68" y1="78" x2="68" y2="86"/>
+    <line x1="64" y1="82" x2="72" y2="82"/>
+  </g>
+
+  <!-- certificate of the enforcement action -->
+  <circle cx="98" cy="56" r="13" fill="#0b1426" stroke="#34d399" stroke-width="2.6"/>
+  <path d="M91.5 56 L96 61 L105 50" fill="none" stroke="#6ee7b7" stroke-width="3"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
