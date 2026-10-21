@@ -106,7 +106,7 @@ All numbers from `python experiments/run_all.py` on a single CPU, 12 seeds.
 | **Safety/utility frontier** (E1) | REINS: ASR **0.000**, Completion-under-Policy **1.000** vs blocking's CuP **0.328** at the same ASR 0; **3× the utility at identical safety.** |
 | **Soundness** (E2) | shieldable deployment: **100%** of fuzzed sessions sound, **0** enforcement failures |
 | **Transparency** (E3) | identity on compliant streams (intervention rate **0.000**) |
-| **Minimal intervention** (E3) | **100%** of 8 394 committed edits certifiably least-cost; per-step == whole-trajectory optimum on **97.5%** of trajectories (honest: not all) |
+| **Minimal intervention** (E3) | **100%** of 8 394 committed edits certifiably least-cost; per-step == whole-trajectory optimum on **97.5%** of trajectories (not all) |
 | **Certificate** (E4) | 6 tamper classes + forgery detected at **100%**; over- **and** under-restriction caught in validly-signed logs |
 | **Systems** (E5) | shield step **226 µs** median / 793 µs p99, 9.4 candidates; monitor state **386 B** (constant); ledger ~690 B/entry |
 | **Robustness** (E6) | adaptive exfiltration **bounded** at the rate budget; every substitution **auditable** in the certificate |
@@ -126,7 +126,7 @@ All numbers from `python experiments/run_all.py` on a single CPU, 12 seeds.
 | `paper/reins.tex` | the paper source (compiles with `pdflatex`) |
 | `tests/` | 62 unit tests |
 
-## Honest limitations
+## Limitations
 
 This is v1.0; I am explicit about what does **not** hold:
 
