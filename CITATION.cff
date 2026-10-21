@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "REINS"
+type: software
+authors:
+  - family-names: "Debes"
+    given-names: "Anwar"
+repository-code: "https://github.com/AnwarDebes/reins"
+license: MIT
+preferred-citation:
+  type: report
+  title: "REINS: Model-Free, Certifying Least-Cost Repair of LLM-Agent Tool-Call Trajectories"
+  authors:
+    - family-names: "Debes"
+      given-names: "Anwar"
+  year: 2026
+  url: "https://github.com/AnwarDebes/reins/blob/main/paper/reins.pdf"
